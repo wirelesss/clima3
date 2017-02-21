@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F1898C011E5979770009AEC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1898C001E5979770009AEC1 /* AppDelegate.swift */; };
-		F1898C031E5979770009AEC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1898C021E5979770009AEC1 /* ViewController.swift */; };
 		F1898C061E5979770009AEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1898C041E5979770009AEC1 /* Main.storyboard */; };
 		F1898C081E5979770009AEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1898C071E5979770009AEC1 /* Assets.xcassets */; };
 		F1898C0B1E5979770009AEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1898C091E5979770009AEC1 /* LaunchScreen.storyboard */; };
+		F1898C131E5A03FD0009AEC1 /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1898C121E5A03FD0009AEC1 /* TVC.swift */; };
+		F1898C151E5A0B010009AEC1 /* ControlCiudad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1898C141E5A0B010009AEC1 /* ControlCiudad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1898BFD1E5979760009AEC1 /* Clima3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1898C001E5979770009AEC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1898C021E5979770009AEC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1898C051E5979770009AEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1898C071E5979770009AEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1898C0A1E5979770009AEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1898C0C1E5979770009AEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1898C121E5A03FD0009AEC1 /* TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
+		F1898C141E5A0B010009AEC1 /* ControlCiudad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlCiudad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				F1898C001E5979770009AEC1 /* AppDelegate.swift */,
-				F1898C021E5979770009AEC1 /* ViewController.swift */,
 				F1898C041E5979770009AEC1 /* Main.storyboard */,
 				F1898C071E5979770009AEC1 /* Assets.xcassets */,
 				F1898C091E5979770009AEC1 /* LaunchScreen.storyboard */,
 				F1898C0C1E5979770009AEC1 /* Info.plist */,
+				F1898C121E5A03FD0009AEC1 /* TVC.swift */,
+				F1898C141E5A0B010009AEC1 /* ControlCiudad.swift */,
 			);
 			path = Clima3;
 			sourceTree = "<group>";
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1898C031E5979770009AEC1 /* ViewController.swift in Sources */,
 				F1898C011E5979770009AEC1 /* AppDelegate.swift in Sources */,
+				F1898C131E5A03FD0009AEC1 /* TVC.swift in Sources */,
+				F1898C151E5A0B010009AEC1 /* ControlCiudad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
